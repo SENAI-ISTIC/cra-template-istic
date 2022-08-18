@@ -1,5 +1,5 @@
 {
-  "name": "cra-template-istic",
+  "name": "@senai-istic/cra-template-istic",
   "version": "0.0.1",
   "keywords": [
     "react",
@@ -12,7 +12,7 @@
   "description": "Base template boilerplate for projects made with create-react-app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SENAI-ISTIC/cra-template-istic.git"
+    "url": "git+https://github.com/SENAI-ISTIC/cra-template-istic.git"
   },
   "license": "MIT",
   "engines": {
@@ -24,5 +24,7 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "homepage": "https://github.com/SENAI-ISTIC/cra-template-istic#readme",
+  "author": "SENAI-ISTIC"
 }
