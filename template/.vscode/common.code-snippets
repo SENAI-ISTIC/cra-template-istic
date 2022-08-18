@@ -1,0 +1,13 @@
+{
+  "Export default routes": {
+    "scope": "javascriptreact,typescriptreact",
+    "prefix": "exproutes",
+    "body": [
+      "import { RouteProps } from 'react-router-context';",
+      "\nexport default [",
+      "\t{ path: '/', element: $1 }",
+      "] as RouteProps[];\n"
+    ],
+    "description": "Export default routes array object"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "package": {
+    "dependencies": {
+      "@craco/craco": "^6.4.5",
+      "@emotion/react": "^11.10.0",
+      "@mantine/core": "^5.1.1",
+      "@mantine/dates": "^5.1.1",
+      "@mantine/form": "^5.1.1",
+      "@mantine/hooks": "^5.1.1",
+      "@mantine/modals": "^5.1.1",
+      "@mantine/notifications": "^5.1.1",
+      "@tanstack/react-query": "^4.0.10",
+      "@testing-library/jest-dom": "^5.14.1",
+      "@testing-library/react": "^13.0.0",
+      "@testing-library/user-event": "^13.2.1",
+      "@types/jest": "^27.0.1",
+      "@types/node": "^16.7.13",
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "axios": "^0.27.2",
+      "dayjs": "^1.11.4",
+      "react": "^18.2.0",
+      "react-dom": "^18.2.0",
+      "react-icons": "^4.4.0",
+      "react-router": "^6.3.0",
+      "react-router-context": "^1.1.4",
+      "react-scripts": "5.0.1",
+      "typescript": "^4.4.2",
+      "web-vitals": "^2.1.0"
+    },
+    "scripts": {
+      "start": "craco start",
+      "build": "craco build",
+      "test": "craco test",
+      "eject": "react-scripts eject",
+      "lint-check": "npx eslint",
+      "type-check": "tsc",
+      "prepare": "husky install"
+    },
+    "devDependencies": {
+      "@typescript-eslint/eslint-plugin": "^5.33.0",
+      "eslint": "^8.21.0",
+      "eslint-config-prettier": "^8.5.0",
+      "husky": "^8.0.1",
+      "prettier": "^2.7.1"
+    }
+  }
+}

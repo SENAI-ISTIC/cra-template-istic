@@ -1,0 +1,18 @@
+{
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "react-app",
+    "react-app/jest",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      { "argsIgnorePattern": "^_" }
+    ],
+    "import/no-anonymous-default-export": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/jsx-key": "error"
+  }
+}

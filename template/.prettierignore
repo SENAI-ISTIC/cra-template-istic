@@ -1,0 +1,12 @@
+# Ignore artifacts:
+
+# production
+/build
+/generator/**/*.hbs
+coverage
+
+# development
+/node_modules
+
+# next
+.next
