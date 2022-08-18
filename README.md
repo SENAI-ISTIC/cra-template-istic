@@ -4,16 +4,16 @@ This template serves to start a project with [crate-react-app](https://create-re
 
 ## How to use
 
-to start using this template pass the `--template istic` tag when writing the project build command.
+to start using this template pass the `--template @senai-istic/cra-template-istic` tag when writing the project build command.
 
 ```sh
-npx create-react-app project-app --template istic
+npx create-react-app project-app --template @senai-istic/cra-template-istic
 ```
 
 or
 
 ```sh
-yarn create react-app project-app --template istic
+yarn create react-app project-app --template @senai-istic/cra-template-istic
 ```
 
 ## Main installed libs
@@ -35,13 +35,26 @@ As this project was developed based on [cra-template-typescript](https://www.npm
 - src
   - components
     - _commons
+      - {common_component}/*
     - Layout
-    - {custom_component_folder}
+    - {custom_component}/*
   - core
     - configs
+      - {custom_lib}/*
     - contexts
+      - {custom_context}/*
     - domains
+      - {custom_domain}
+        - {custom_domain}.hooks.ts
+        - {custom_domain}.services.ts
+        - {custom_domain}.types.ts
     - routes
+      - collections
+        - default.routes.tsx
+        - private.routes.tsx
+        - public.routes.tsx
+      - index.tsx
+      - types.ts
     - types
   - pages
 ```
